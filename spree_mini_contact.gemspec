@@ -4,10 +4,8 @@ Gem::Specification.new do |s|
   s.version     = '0.0.1'
   s.summary     = 'Easy to implement contact form.'
   s.required_ruby_version = '>= 1.8.7'
-  s.license     = 'BSD'
- s.description = <<-eof
-    Easy to implement contact form.
-    It stores all messages in DB for an easy recall of messages.
+  s.description = <<-eof
+    Basically the easiest way to implement a contact form.
   eof
 
   s.authors           = ['Jose Pablo Barrantes']
@@ -16,9 +14,7 @@ Gem::Specification.new do |s|
 
   s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*', 'public/**/*', 'db/**/*', 'config/**/*']
   s.require_path = 'lib'
-  s.requirements << 'none'
   s.extra_rdoc_files = ['README.md']
   s.has_rdoc = true
-
   s.add_dependency('spree_core', '>= 0.40.0')
 end

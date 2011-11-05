@@ -1,10 +1,11 @@
 class ContactMailer < ActionMailer::Base
-  helper "spree/base"
 
   def message_email(message)
-    subject = "#{Spree::Config[:site_name]} - #{t('message_from')} #{Spree::Config[:contact_form_to]}"
-
+    opts = {}
+    opts[:to] =  message.email
+    opts[:subject] = "#{t('message_from')} #{Spree::Config[:site_name]}"
     @message = message
-    mail(:to => message.email, :subject => subject, :reply_to => Spree::Config[:contact_form_to])
+    mail(opts)
   end
+
 end

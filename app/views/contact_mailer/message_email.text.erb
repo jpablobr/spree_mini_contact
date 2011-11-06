@@ -1,11 +1,11 @@
-<%= t('contact_email_greeting') %>
+<%= t('mini_contact.greeting') %>
 
-<%= t('name') %>:  <%= @message.name %>
-<%= t('email') %>: <%= @message.email %>
-<%= t('phone') %>: <%= @message.phone %>
-<%= t('subject') %>: <%= @message.subject %>
+<%= t('mini_contact.name') %>:  <%= @message.name %>
+<%= t('mini_contact.email') %>: <%= @message.email %>
+<%= t('mini_contact.phone') %>: <%= @message.phone %>
+<%= t('mini_contact.subject') %>: <%= @message.subject %>
 
 <%= @message.message %>
 
-<%= t('contact_email_footer') %>
+<%= t('mini_contact.footer') %>
 <%= Spree::Config[:site_name] %>

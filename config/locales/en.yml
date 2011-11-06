@@ -1,22 +1,23 @@
 en:
-  contacts: Contacts
-  contact: Contact us
-  name: Name
-  email: Email
-  sent: Sent
-  view: View
-  message: Message
-  order_number: Order number
-  optionnal: optional
-  name: Name
-  email: Email
-  phone: Phone
-  subject: Subject
-  contact_details: Contact details
-  contact_list: Contacts list
-  send_message: Send message
-  message_sent: Thank You - Your email has been sent!
-  from: from
-  message_from: Message from
-  contact_email_greeting: Thank you for your enquiry. Our staff will get back to you shortly. Please see your submission below.
-  contact_email_footer: Regards,
+  mini_contact:
+    contacts: Contacts
+    contact: Contact us
+    name: Name
+    email: Email
+    sent: Sent
+    view: View
+    message: Message
+    order_number: Order number
+    optionnal: optional
+    name: Name
+    email: Email
+    phone: Phone
+    subject: Subject
+    contact_details: Contact details
+    contact_list: Contacts list
+    send_message: Send message
+    message_sent: Thank You - Your email has been sent!
+    from: from
+    message_from: Message from
+    greeting: Thank you for your enquiry. Our staff will get back to you shortly. Please see your submission below.
+    footer: Regards,

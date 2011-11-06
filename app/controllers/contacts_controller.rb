@@ -13,7 +13,7 @@ class ContactsController < Spree::BaseController
     respond_to do |format|
       if @contact.valid? &&  @contact.save
         ContactMailer.message_email(@contact).deliver
-        format.html { redirect_to(contact_path, :notice => t("message_sent")) }
+        format.html { redirect_to(contact_path, :notice => t("mini_contact.message_sent")) }
       else
         format.html { render :action => "new" }
       end

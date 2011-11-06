@@ -2,10 +2,10 @@
   <ul class="sidebar">
   <%= hook :admin_contact_tabs do %>
     <li<%== ' class="active"' if current == 'Contact List' %>>
-      <%= link_to t("contact_list"), collection_url() %>
+      <%= link_to t("mini_contact.contact_list"), collection_url() %>
     </li>
     <li<%== ' class="active"' if current == 'Contact Details' %>>
-      <%= link_to t("contact_details"), object_url(@contact) %>
+      <%= link_to t("mini_contact.contact_details"), object_url(@contact) %>
     </li>
   <% end %>
   </ul>

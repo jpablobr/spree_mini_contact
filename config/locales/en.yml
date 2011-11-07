@@ -20,6 +20,5 @@ en:
     send_message: Send message
     message_sent: Thank You - Your email has been sent!
     from: from
-    message_from: Message from
     greeting: Thank you for your enquiry. Our staff will get back to you shortly. Please see your submission below.
     footer: Regards,
